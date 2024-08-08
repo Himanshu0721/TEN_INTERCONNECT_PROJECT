@@ -1,0 +1,40 @@
+.admin-chat-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    border-radius: 1rem;
+}
+
+.admin-chat-container{
+    height: 70vh;
+    width: 70vw;
+    display: flex;
+    border-radius: 0.5rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+
+@media (max-width: 520px){
+    .admin-chat-wrapper{
+        margin-top: 4rem;
+        width: 100vw;
+        height: 84vh;
+    }
+
+    .admin-chat-container{
+        margin-top: 6rem;
+        width: 100%;
+        height: 100%;
+        overflow-x: scroll;
+    }
+}
+
+@media (min-width: 520px) and (max-width: 920px){
+
+    .admin-chat-container{
+        margin-top: 6rem;
+        width: auto;
+    }
+}

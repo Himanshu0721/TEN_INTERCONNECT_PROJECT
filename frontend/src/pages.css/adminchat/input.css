@@ -1,0 +1,36 @@
+.input-wrapper {
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+
+.input-field {
+    width: 100%;
+    padding: 10px 60px 10px 10px; /* Adjust the padding to make space for the button */
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.send-button {
+    position: absolute;
+    bottom: 15px;
+    right: 0;
+    padding: 8px 12px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.send-button:hover {
+    background-color: #0056b3;
+}
+
+@media (min-width: 520px) and (max-width: 920px){
+    margin-bottom: 2rem;
+}

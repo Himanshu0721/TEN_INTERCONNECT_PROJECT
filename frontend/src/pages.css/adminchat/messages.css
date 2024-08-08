@@ -1,0 +1,17 @@
+.messages-wrapper {
+    width: 100%;
+    height: 59vh;
+    overflow-y: scroll;
+}
+
+.messages-container {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 520px){
+    .messages-wrapper{
+        height: 72.3vh;
+    }
+}
+

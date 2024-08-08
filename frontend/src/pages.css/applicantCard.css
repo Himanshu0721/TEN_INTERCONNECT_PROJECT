@@ -1,0 +1,44 @@
+.applicant-card-container{
+    padding: 1rem 2rem 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    width: 50vw;
+    height: auto;
+    border-radius: 0.5rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    background-color: white;
+}
+.name{
+    font-size: 30px;
+    font-weight: bold;
+    align-self: center;
+}
+
+.see-more-button {
+    background: none;
+    border: none;
+    color: blue;
+    cursor: pointer;
+    padding: 0;
+    font-size: 12px;
+    text-decoration: underline;
+    letter-spacing: 0;
+    text-transform: lowercase;
+}
+
+.see-more-button:hover {
+    color: darkblue;
+    background-color: white;
+}
+
+
+/*.open-chat-btn{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*}*/
+
+/*.open-chat-btn button{*/
+/*    font-size: 13px;*/
+/*}*/

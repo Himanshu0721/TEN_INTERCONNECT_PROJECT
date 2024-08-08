@@ -1,0 +1,47 @@
+.help-center-container{
+    margin-top: 6rem;
+}
+.hr_s{
+    margin-top: 1rem;
+}
+
+.h1parent{
+    margin-top: 2rem;
+
+}
+.help-center-header{
+    font-size: 55px;
+    font-weight: 500;
+}
+
+.h1parent h2{
+    font-size: 28px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -7rem;
+    width: 50%;
+    /*margin-bottom: -5rem;*/
+}
+.container h2 {
+    text-align: center;
+}
+
+.container p{
+    width: 80%;
+    text-align: justify;
+    font-size: 18px;
+}
+
+@media (max-width: 480px){
+    .h1parent{
+        margin-bottom: 5rem;
+    }
+    .container{
+        width: 90%;
+    }
+}

@@ -1,0 +1,70 @@
+.box-about{
+  height: 80vh;
+  background-size: cover;
+  color: rgb(239, 234, 234);
+  text-align: center;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  border: none;
+  margin: 20px;
+  width: 50%;
+  float: right;
+  padding: 2%;
+  text-align: left;
+  flex: 1;
+  padding: 0 20px;
+}
+
+.image-display {
+  width: 40%;
+  height: 400px;
+
+  background-image: url(int1.webp);
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.displayer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2%;
+}
+
+.single-service {
+  background-color: #f9f9ff;
+  border: 1px solid #f9f9ff;
+  padding: 30px;
+  margin-bottom: 30px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  transition: border-color 0.3s, opacity 0.3s;
+}
+
+.single-service:hover {
+  border-color: rgb(24, 147, 255);
+  cursor: pointer;
+}
+
+@media (max-width: 520px){
+  .displayer{
+    display: flex;
+    flex-direction: column;
+  }
+  .image-display{
+    width: 90%;
+  }
+  .description{
+    width: 90%;
+  }
+}

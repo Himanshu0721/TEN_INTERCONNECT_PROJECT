@@ -1,0 +1,148 @@
+.container-ulist-uprofile {
+  display: grid;
+  grid-template-columns: 1fr 2.5fr;
+}
+
+.u-profile {
+  /* width: 80%; */
+  border-radius: 20px;
+  padding: 15px;
+  margin: 20px 40px 20px 20px;
+  background-color: rgb(255, 255, 255);
+  left: 0;
+  height: auto;
+}
+
+.details {
+  padding: 10px;
+}
+.list-scroll {
+  overflow-y: scroll;
+  height: 100vh;
+  /* width: 20%; */
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.user-card {
+  padding: 20px;
+  margin: 20px;
+  width: 90%;
+  height: auto;
+  cursor: pointer;
+  right: 0;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0px 4px 7px 0px #a8a7a7;
+  background-color: white;
+  border-radius: 10px;
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  height: var(--bs-card-height);
+  color: var(--bs-body-color);
+  word-wrap: break-word;
+
+  background-clip: border-box;
+  border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+}
+
+.temp button {
+  padding: 5px;
+  margin: 15px 15px 0px;
+}
+
+.admin{
+  margin-top: 5rem; /*temporary*/
+  /* min-height: 41rem; */
+  min-height: 67rem;
+  width: 100%;
+  /* background-color: skyblue; */
+  /* margin-bottom: 1rem; */
+}
+.adminsidebar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.adminsidebarbtns{
+  display: flex;
+  gap: 1rem;
+  padding: 10px 5px;
+  margin: 5px 0px;
+}
+.adminpanelbtn{
+  font-size: 1.3rem;
+  font-weight: 400;
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: white;
+  color: black;
+}
+.adminpanelbtn:hover{
+  color: white;
+  background-color: black;
+}
+.postjobsection{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .home{
+  background-color: white;
+  
+  height: 100%;
+  width: 90%;
+  margin: .1rem;
+  padding: .1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+} */
+.section1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 8px
+}
+.section2{
+  margin:4px 8px;
+}
+.post_job_title{
+  border: 2px solid black;
+  font-size: 30px;
+  border-radius: 5px;
+  width: 100%;
+  background-color: tomato;
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 5px;
+}
+
+@media (max-width:790px) {
+  .postedbtn{
+    font-size: 1rem;
+  }
+  .adminpanelbtn{
+    font-size: 1rem;
+  }
+}
+@media (max-width:550px){
+  .admin{
+    margin-top: 8rem;
+  }
+}
+@media (max-width:500px){
+  .home{
+    width: 100%;
+  }
+  .adminpanelbtn{
+    font-size: .8rem;
+  }
+  .postedbtn{
+    font-size: 1rem;
+  }
+}

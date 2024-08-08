@@ -1,0 +1,30 @@
+.hired-applicant-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    height: auto;
+    background-color: #f8f8f8;
+}
+
+.hired-applicant-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.hired-applicant-content h2{
+    font-size: 40px;
+}
+
+.applicants-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    background-color: #f8f8f8;
+}
+

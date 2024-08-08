@@ -1,0 +1,61 @@
+body {
+  box-sizing: border-box;
+}
+.box-guideline{
+  height: 80vh;
+  background-size: cover;
+  color: rgb(239, 234, 234);
+  text-align: center;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.before-lineup {
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
+.lineUp {
+  animation: 2s anim-lineUp ease-out infinite;
+}
+.guidelines-text {
+  font-size: 17px;
+}
+.guidelines-text {
+  padding: 15px;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-align: center;
+
+}
+
+.guidelines-list {
+  color: #555;
+  font-size: 15px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  margin-left: 10px;
+  text-align: left;
+
+}
+
+.guidelines-category {
+  margin-bottom: 10px;
+}
+
+.guidelines-list li {
+  margin-bottom: 10px;
+}
+
+.guidelines-sublist {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.guidelines-main {
+  font-weight: bold;
+}

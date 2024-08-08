@@ -1,0 +1,169 @@
+body{
+    font-family: 'Inter', sans-serif;
+    margin-top: -5rem;
+}
+
+.first-faq {
+    background-color: #050505;
+    min-height: 45rem;
+    height: auto;
+    padding-bottom: 2rem;
+}
+
+.div-top {
+    /* background-color: #000; */
+    border: 1px solid #222;
+    height: auto;
+    width: 65%;
+    margin: auto;
+    align-items: center;
+}
+
+@media screen and (max-width:480px) {
+    .div-top {
+        width: auto;
+    }
+}
+
+.top-page {
+    margin: 0;
+    /* height: auto !important; */
+}
+
+/*.faq {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    height: 100vh;*/
+/*    width: 100%;*/
+/*    !* background: #121212;*/
+/*     *! */
+/*}*/
+
+.faq-item .header {
+    color: white;
+    display: flex;
+    padding-left: 30px;
+    padding-right: 20px;
+    font-size: 20px;
+    align-items: center;
+    margin: 20px;
+    height: 60px;
+    width: 95%;
+    background: #121212;
+    /* background-color: white; */
+    border: 1px solid #222;
+    border-radius: 8px;
+    justify-content: space-between;
+}
+
+.header button{
+    margin-bottom: 1rem;
+}
+
+.header button:hover{
+    background-color: #262626;
+
+}
+
+
+.faq-item h3 {
+    font-size: 16px;
+    align-items: center;
+}
+
+.on-click {
+    display: flex;
+    flex-direction: column;
+}
+
+.faq-item button {
+    color: white;
+    background-color: #121212;
+    border: none;
+    cursor: pointer;
+}
+
+.faq-item p {
+    background-color: #121212;
+    color: #968a8a;
+    padding: 15px;
+    font-size: 14px;
+    border: 1px solid #222;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+/* About section  */
+.about-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    background-color: #fff;
+    color: #000;
+    margin-top: 3rem;
+    padding: 60px 10px;
+}
+
+.about-section .about-title {
+    text-align: center;
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: -5px;
+}
+
+.about-section .about-description {
+    margin-top: 32px;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    width: 65vw;
+}
+
+a {
+    color: #000;
+}
+
+.about-section .login-btn {
+    margin-top: 40px;
+    padding: 10px 80px;
+    /*border: 1px solid #555;*/
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 4px;
+    background: #004694;
+    color: white;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background: #003d80;
+    color: #fff;
+}
+
+.login-btn:active{
+    transform: scale(0.98);
+}
+
+
+hr{
+    margin-top: -1rem;
+}
+
+@media (max-width: 480px){
+    .about-section .about-title{
+        font-size: 55px;
+    }
+
+    .about-section .about-description{
+        text-align: justify;
+    }
+
+}
+
+@media (max-width: 1080px){
+    .about-section .about-description{
+        text-align: justify;
+    }
+}
