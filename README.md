@@ -1,6 +1,6 @@
 
 # Team Member:- Himanshu Kumar , Padmini Biyyapu ,Poonam Bhalsane
-
+### This is the entrepreneurship network (TEN) company project work with three members.
 
 # The Intern Management System
 ## Name of Application 
@@ -117,7 +117,7 @@ Intern after completing intern should pay to get the certificate of internship.
 
 
 
-PROJECT DEMO - 21/05/2023
+PROJECT DEMO
 Features to be completed for Demo:-
 User signup and login
 User signup and log in with user Google account
