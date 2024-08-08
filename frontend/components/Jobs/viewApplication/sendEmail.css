@@ -1,0 +1,56 @@
+
+
+.send-email-card-wrapper{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    top: 20%;
+    left: 25%;
+}
+
+.send-email-card-container{
+    width: 30vw;
+    height: 55vh;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.send-email-form{
+
+}
+
+.send-email-form input{
+    width: 90%;
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+
+.send-email-buttons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.send-email-buttons button{
+    width: 11rem;
+    height: 2.5rem;
+    text-transform: none;
+    border-radius: 0.5rem;
+}
+
+#send{
+    background-color: green;
+}
+
+.send-email-buttons #send:hover{
+    background-color: #228c22;
+}
+
+#close{
+    background-color: #fd1e1e;
+}
+
+.send-email-buttons #close:hover{
+    background-color: #fa4848;
+}

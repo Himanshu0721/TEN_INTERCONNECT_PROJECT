@@ -1,0 +1,158 @@
+.navbarsection{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+.navbar{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    position: relative;
+}
+.navbarchangecolor{
+    background-color:rgb(3, 3, 61);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    position: relative;
+}
+.navbarLeft{
+    /* background-color: green; */
+    font-size: 1.6rem;
+    font-weight: bolder;
+    margin-left: 1rem;
+    padding: 0px 4px;
+}
+.navbarRight{
+    display: flex;
+    /* background-color: green; */
+    padding: 0px 4px;
+    margin-right: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.4rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.navbarRightbtns{
+    padding: 0px 4px; 
+    /* background-color: skyblue; */
+    text-wrap: wrap;
+    text-align: center;
+}
+.togglebtn{
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: none;
+}
+.righttogglebox{
+    position: absolute;
+    background-color: rgb(246, 246, 246);
+    right: -270px;
+    top: 4.9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    padding: 6px 12px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    z-index: 1;
+    border-radius: 5px;
+    width: 270px;
+}
+.toggleboxbtns{
+    /* background-color: skyblue; */
+    border-radius: 5px;
+    padding: 4px;
+    width: 100%;
+}
+.toggleboxbtns:hover{
+    background-color: skyblue;
+}
+#signoutbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+#signoutbtn div{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+#togglesignoutbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+#togglesignoutbtn div{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+#toggleprofile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+#toggleprofile #profileicon{
+    height: 1.1rem;
+}
+#profile{
+    height: 1rem;
+    padding-right: 2px;
+}
+@media (max-width:1100px) {
+    .navbarLeft{
+        margin-left: .5rem;
+    }
+    .navbarRight{
+        margin-right: .5rem;
+        gap: 1rem;
+    }
+}
+@media (max-width: 1050px){
+    .navbar{
+        padding: 1rem;
+    }
+    .navbarLeft{
+        margin-left: 0rem;
+    }
+    .navbarRight{
+        margin-right: 0rem;
+        gap: .5rem;
+    }
+    .navbarRightbtns{
+        padding: 0px 2px;
+    }
+}
+@media (max-width: 960px){
+    .navbarRight{
+        display: none;
+    }
+    .togglebtn{
+        display: block;
+    }
+    .righttogglebox{
+        right: .5rem;
+    }
+}
+@media (max-width: 639px){
+    .navbarLeft{
+        font-size: 1.3rem;
+    }
+    .togglebtn{
+        font-size: 1.3rem
+    }
+    .righttogglebox{
+        width: 50%;
+        font-size: 1.1rem;
+    }
+}
