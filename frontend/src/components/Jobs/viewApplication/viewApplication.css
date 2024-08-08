@@ -1,0 +1,240 @@
+.view-box {
+  margin-top: 4%;
+  font-size: 1.5em;
+}
+
+.application-internship-heading {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.button {
+  margin-left: 11%;
+  padding-left: 5%;
+  background-color: white;
+  color: rgb(19, 137, 221);
+}
+
+/* @media (max-width: 1024px) {
+  .left-section-internship {
+    width: 25%;
+  }
+} */
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .filter {
+    max-width: 20%;
+    padding: 10px;
+  }
+}
+.view-application {
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(141, 130, 130, 0.1);
+}
+
+.internship-data {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.left-section-internship {
+  width: 25%;
+  background-color: rgb(225, 224, 224);
+  overflow-y: auto;
+}
+
+.left-item-internship {
+  padding: 25px 0 25px 25px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.left-item-internship:hover,
+.left-item-internship.selected {
+  color: rgb(9, 150, 221);
+}
+
+.right-section {
+  width: 65%;
+  padding: 25px 15px;
+  margin-left: 30px;
+  background-color: #fff;
+  border-left: 1px solid #ccc;
+  /* overflow-x: auto; */
+}
+
+/* application.js css */
+
+.app {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid rgb(216, 215, 215); */
+  /* padding: 20px 20px 190px 20px; */
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.filter {
+  margin-left: 20%;
+}
+
+.progress-container {
+  width: 70%;
+  height: 50px;
+}
+
+.progress-bar input[type="range"] {
+  width: 100%;
+}
+
+.progress-value {
+  font-size: 1rem;
+  margin-left: 10px;
+}
+
+.progress-number {
+  margin-top: -5px;
+  font-size: 18px;
+}
+
+.progress {
+  width: 85%;
+  height: 50px;
+  background-color: #ffffff;
+}
+
+.bar input[type="range"] {
+  width: 300%;
+}
+
+.Activity {
+  margin-top: 17px;
+  margin-left: -35%;
+  font-size: 15px;
+}
+
+.academic {
+  width: 70%;
+  height: 50px;
+  background-color: #ffffff;
+}
+
+.academic-bar input[type="range"] {
+  width: 100%;
+}
+
+.number-only {
+  margin-top: -16px;
+  font-size: 1rem;
+  margin-left: 10px;
+}
+
+/* shortlisted css */
+.shortlisted {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.shortlist-section {
+  width: 69%;
+}
+
+.shortlist-text {
+  border: 1px solid blue;
+  background-color: rgb(171, 209, 245);
+  color: blue;
+  padding: 10px;
+}
+
+.filter-section {
+  margin-left: 5%;
+  font-size: 19px;
+  padding: 10px 0;
+}
+
+/* switchbutton */
+
+/* hiredsection */
+.hired-applicant-container {
+  display: flex;
+  justify-content: center;
+  margin-top: -5rem;
+  height: auto;
+  padding: 10px 0;
+  background-color: #ffffff;
+}
+
+.hired-applicant-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.hired-applicant-content h2 {
+  font-size: 40px;
+}
+
+.applicants-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  background-color: #ffffff;
+}
+
+/* Applicationcard CSS */
+.applicant-card-container {
+  padding: 1rem 2rem 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 50vw;
+  height: auto;
+  border-radius: 0.5rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  background-color: white;
+}
+
+.name {
+  /*padding-top: 1rem;*/
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.see-more-button {
+  background: none;
+  border: none;
+  color: blue;
+  cursor: pointer;
+  padding: 0;
+  font-size: 12px;
+  text-decoration: underline;
+  letter-spacing: 0;
+  text-transform: lowercase;
+}
+
+.see-more-button:hover {
+  color: darkblue;
+  background-color: white;
+}
+
+.open-chat-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.open-chat-btn button {
+  font-size: 13px;
+}
